@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="AutoTextSwitcher">
+        <!-- array of strings -->
+        <attr name="contentTextArray" format="reference" />
+        <!-- textview  -->
+        <attr name="itemTextView" format="reference" />
+        <!-- time in millisecond -->
+        <attr name="switchTime" format="integer" />
+        <!-- boolean value indicates auto start changing text or not -->
+        <attr name="autoStart" format="boolean" />
+    </declare-styleable>
+</resources>
